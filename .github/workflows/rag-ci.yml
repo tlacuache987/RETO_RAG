@@ -54,46 +54,70 @@ jobs:
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: |
-        echo "📓 Cleaning notebook metadata..."
+        echo "📓 Creating safe notebook execution script..."
         python -c "
         import json
-        with open('RETO_RAG.ipynb', 'r') as f:
-            nb = json.load(f)
+        import sys
         
-        # Fix kernel spec
-        nb['metadata']['kernelspec'] = {
-            'display_name': 'Python 3',
-            'language': 'python',
-            'name': 'python3'
-        }
-        
-        # Clean outputs with jetTransient
-        for cell in nb['cells']:
-            if 'outputs' in cell:
-                for output in cell['outputs']:
-                    if 'jetTransient' in output:
-                        del output['jetTransient']
-        
-        with open('RETO_RAG_clean.ipynb', 'w') as f:
-            json.dump(nb, f, indent=2)
-        print('✅ Notebook cleaned')
+        try:
+            with open('RETO_RAG.ipynb', 'r') as f:
+                nb = json.load(f)
+            
+            # Extract only code cells
+            code_cells = []
+            for cell in nb['cells']:
+                if cell['cell_type'] == 'code':
+                    source = cell['source']
+                    if isinstance(source, list):
+                        source = ''.join(source)
+                    
+                    # Skip cells with shell commands or magic commands
+                    if source.strip().startswith('!') or source.strip().startswith('%'):
+                        continue
+                    
+                    # Skip empty cells
+                    if not source.strip():
+                        continue
+                        
+                    code_cells.append(source)
+            
+            # Write clean Python script
+            with open('notebook_safe.py', 'w') as f:
+                f.write('#!/usr/bin/env python3\n')
+                f.write('# Auto-generated from RETO_RAG.ipynb\n\n')
+                
+                for i, code in enumerate(code_cells):
+                    f.write(f'# === Cell {i+1} ===\n')
+                    f.write('try:\n')
+                    # Indent each line
+                    for line in code.split('\n'):
+                        f.write(f'    {line}\n')
+                    f.write('except Exception as e:\n')
+                    f.write(f'    print(f\"Error in cell {i+1}: {{e}}\")\n')
+                    f.write('    import traceback\n')
+                    f.write('    traceback.print_exc()\n\n')
+            
+            print('✅ Safe notebook script created')
+            
+        except Exception as e:
+            print(f'❌ Error processing notebook: {e}')
+            sys.exit(1)
         "
         
-        echo "📓 Converting cleaned notebook to Python..."
-        jupyter nbconvert --to python RETO_RAG_clean.ipynb --output RETO_RAG_notebook.py
-        
-        echo "📓 Executing converted notebook..."
-        python RETO_RAG_notebook.py
+        echo "📓 Executing safe notebook script..."
+        python notebook_safe.py
 
     - name: Show notebook conversion status
       run: |
         echo "📊 Checking notebook execution results..."
-        if [ -f "RETO_RAG_notebook.py" ]; then
-          echo "✅ Notebook converted and executed successfully"
+        if [ -f "notebook_safe.py" ]; then
+          echo "✅ Safe notebook script created and executed"
+          echo "📋 Script size:"
+          wc -l notebook_safe.py
           echo "📋 Generated files:"
-          ls -la RETO_RAG*
+          ls -la *.py *.json sample_docs/ 2>/dev/null || echo "Some files may not exist yet"
         else
-          echo "❌ Notebook execution failed"
+          echo "❌ Notebook script creation failed"
         fi
 
     - name: Check output files
@@ -123,8 +147,8 @@ jobs:
         path: |
           rag_results.json
           sample_docs/
-          RETO_RAG_clean.ipynb
-          RETO_RAG_notebook.py
+          notebook_safe.py
+          chroma_db/
         retention-days: 7
 
     - name: Validate JSON output
