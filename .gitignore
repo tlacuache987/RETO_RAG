@@ -1,0 +1,140 @@
+# Archivos de configuración sensibles
+.env
+*.env
+.env.local
+.env.production
+
+# API Keys y secretos
+api_keys.txt
+secrets.json
+
+# Base de datos vectorial
+chroma_db/
+*.db
+*.sqlite
+
+# Documentos temporales
+sample_docs/
+temp_docs/
+uploads/
+
+# Resultados y logs
+rag_results.json
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs y editores
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Emacs
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# Atom
+.atom/
+
+# Eclipse
+.metadata
+bin/
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+m1p9_rag.ipynb
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Sistemas Operativos
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Documentos de usuario (opcional)
+user_docs/
+private_docs/
+
+# Archivos temporales
+*.tmp
+*.temp
+temp/
+
+# Respaldos
+*.bak
+*.backup
+backup/
