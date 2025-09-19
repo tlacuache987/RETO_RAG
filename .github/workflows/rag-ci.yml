@@ -32,6 +32,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        pip install nbconvert jupyter
 
     - name: Create .env file
       run: |
@@ -42,12 +43,30 @@ jobs:
         echo "Validating environment setup..."
         python -c "import openai, langchain, chromadb; print('All dependencies imported successfully')"
 
-    - name: Run RAG system tests
+    - name: Run RAG system script
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: |
-        echo "Testing RAG system..."
+        echo "🐍 Testing RAG system with Python script..."
         python RETO_RAG.py
+
+    - name: Execute notebook and show output
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      run: |
+        echo "📓 Executing Jupyter notebook..."
+        jupyter nbconvert --to notebook --execute --inplace RETO_RAG.ipynb --ExecutePreprocessor.timeout=600
+        echo "📓 Converting to stdout to see outputs..."
+        jupyter nbconvert --to python --stdout RETO_RAG.ipynb > notebook_output.py
+        echo "📓 Notebook execution completed!"
+
+    - name: Show notebook outputs
+      run: |
+        echo "📊 Displaying notebook execution results..."
+        if [ -f "notebook_output.py" ]; then
+          echo "✅ Notebook converted successfully"
+          head -50 notebook_output.py
+        fi
 
     - name: Check output files
       run: |
