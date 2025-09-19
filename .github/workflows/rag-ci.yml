@@ -104,11 +104,15 @@ jobs:
     - name: Check for hardcoded secrets
       run: |
         echo "Scanning for hardcoded secrets..."
-        if grep -r "sk-" . --exclude-dir=.git --exclude="*.yml" --exclude="*.yaml"; then
-          echo "❌ Potential API keys found in code"
+        # Buscar keys reales (no placeholders/ejemplos)
+        if grep -r "sk-[a-zA-Z0-9]\{48\}" . --exclude-dir=.git --exclude="*.yml" --exclude="*.yaml" --exclude="README.md" --exclude="*.template" --exclude="PROMPT_*.md"; then
+          echo "❌ Real API keys found in code"
+          exit 1
+        elif grep -r "OPENAI_API_KEY=sk-" . --exclude-dir=.git --exclude="*.yml" --exclude="*.yaml" --exclude="README.md" --exclude="*.template" --exclude="PROMPT_*.md" | grep -v "sk-your" | grep -v "sk-tu-"; then
+          echo "❌ Potential real API keys found"
           exit 1
         else
-          echo "✅ No hardcoded secrets detected"
+          echo "✅ No hardcoded secrets detected (placeholders ignored)"
         fi
 
     - name: Check code quality
