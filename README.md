@@ -296,6 +296,6 @@ Los sistemas RAG representan un paradigma transformador para los desarrolladores
 
 ---
 
-**Desarrollado por**: [Tu Nombre]  
+**Desarrollado por**: Ivan Venor García
 **Fecha**: Septiembre 2025  
 **Versión**: 1.0.0
