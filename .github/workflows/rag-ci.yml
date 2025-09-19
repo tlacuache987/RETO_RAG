@@ -54,18 +54,46 @@ jobs:
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: |
-        echo "📓 Executing Jupyter notebook..."
-        jupyter nbconvert --to notebook --execute --inplace RETO_RAG.ipynb --ExecutePreprocessor.timeout=600
-        echo "📓 Converting to stdout to see outputs..."
-        jupyter nbconvert --to python --stdout RETO_RAG.ipynb > notebook_output.py
-        echo "📓 Notebook execution completed!"
+        echo "📓 Cleaning notebook metadata..."
+        python -c "
+        import json
+        with open('RETO_RAG.ipynb', 'r') as f:
+            nb = json.load(f)
+        
+        # Fix kernel spec
+        nb['metadata']['kernelspec'] = {
+            'display_name': 'Python 3',
+            'language': 'python',
+            'name': 'python3'
+        }
+        
+        # Clean outputs with jetTransient
+        for cell in nb['cells']:
+            if 'outputs' in cell:
+                for output in cell['outputs']:
+                    if 'jetTransient' in output:
+                        del output['jetTransient']
+        
+        with open('RETO_RAG_clean.ipynb', 'w') as f:
+            json.dump(nb, f, indent=2)
+        print('✅ Notebook cleaned')
+        "
+        
+        echo "📓 Converting cleaned notebook to Python..."
+        jupyter nbconvert --to python RETO_RAG_clean.ipynb --output RETO_RAG_notebook.py
+        
+        echo "📓 Executing converted notebook..."
+        python RETO_RAG_notebook.py
 
-    - name: Show notebook outputs
+    - name: Show notebook conversion status
       run: |
-        echo "📊 Displaying notebook execution results..."
-        if [ -f "notebook_output.py" ]; then
-          echo "✅ Notebook converted successfully"
-          head -50 notebook_output.py
+        echo "📊 Checking notebook execution results..."
+        if [ -f "RETO_RAG_notebook.py" ]; then
+          echo "✅ Notebook converted and executed successfully"
+          echo "📋 Generated files:"
+          ls -la RETO_RAG*
+        else
+          echo "❌ Notebook execution failed"
         fi
 
     - name: Check output files
@@ -95,6 +123,8 @@ jobs:
         path: |
           rag_results.json
           sample_docs/
+          RETO_RAG_clean.ipynb
+          RETO_RAG_notebook.py
         retention-days: 7
 
     - name: Validate JSON output
