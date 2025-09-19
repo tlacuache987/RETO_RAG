@@ -1,0 +1,112 @@
+REPORTE ANUAL DE VENTAS 2024 – TECHCORP  
+Departamento Comercial  
+Fecha de publicación: 15 de enero de 2025
+
+1. RESUMEN EJECUTIVO
+
+Durante el año fiscal 2024, TechCorp consolidó su presencia en el mercado mexicano de soluciones tecnológicas, alcanzando un ingreso total de $468,750,000 MXN, lo que representa un crecimiento del 18.2% respecto al año anterior. Este crecimiento fue impulsado principalmente por la adopción acelerada de soluciones SaaS, la expansión de la línea de productos IoT y el fortalecimiento de alianzas con socios estratégicos en los sectores financiero, logístico y gubernamental.
+
+2. DETALLE DE VENTAS POR TRIMESTRE
+
+Q1 2024 (Enero - Marzo)
+Ingresos totales: $97,200,000 MXN
+Producto líder: TechSuite CRM Cloud (38% de las ventas)
+Región con mayor crecimiento: Occidente (+21%)
+Nuevos clientes: 47
+Observaciones: Fuerte demanda en el sector financiero para plataformas de automatización de procesos comerciales. Se firmaron contratos clave con Grupo Finabank y Sofitech.
+
+Q2 2024 (Abril - Junio)
+Ingresos totales: $111,300,000 MXN
+Producto líder: VisionBox AI (34% de las ventas)
+Región con mayor crecimiento: Norte del país (+27%)
+Clientes recurrentes activados: 62
+Observaciones: Incremento significativo de adopción en el sector retail. Se integró la solución de análisis de video en 32 tiendas de la cadena MaxMarket.
+
+Q3 2024 (Julio - Septiembre)
+Ingresos totales: $128,750,000 MXN
+Producto líder: SecureNet Appliance (41% de las ventas)
+Región con mayor crecimiento: Centro-Sur (+19%)
+Nuevos clientes empresariales: 29
+Observaciones: La creciente preocupación por ciberseguridad en entidades gubernamentales y universidades generó una ola de licitaciones exitosas para TechCorp. Se entregaron más de 1,500 appliances en tres meses.
+
+Q4 2024 (Octubre - Diciembre)
+Ingresos totales: $131,500,000 MXN
+Producto líder: SmartFleet 360 (33% de las ventas)
+Región con mayor crecimiento: Bajío (+22%)
+Contratos estratégicos: 3
+Observaciones: Alta demanda por soluciones de trazabilidad y eficiencia operativa en transporte y logística. Se firmó acuerdo de 2 años con TransMex y Logix.
+
+3. DESEMPEÑO POR PRODUCTO
+
+Producto: TechSuite CRM Cloud
+Ingreso Total Anual: $142,400,000 MXN
+Participación: 30.4%
+
+Producto: VisionBox AI
+Ingreso Total Anual: $121,500,000 MXN
+Participación: 25.9%
+
+Producto: SecureNet Appliance
+Ingreso Total Anual: $98,000,000 MXN
+Participación: 20.9%
+
+Producto: SmartFleet 360
+Ingreso Total Anual: $85,200,000 MXN
+Participación: 18.2%
+
+Producto: DataBridge ETL Pro
+Ingreso Total Anual: $21,650,000 MXN
+Participación: 4.6%
+
+Comentario: TechSuite CRM Cloud mantiene su liderazgo, pero VisionBox AI mostró el crecimiento más acelerado (+39% interanual).
+
+4. ANÁLISIS REGIONAL
+
+Norte: $134,000,000 MXN – consolidación en industria manufacturera y minería  
+Centro-Sur: $109,000,000 MXN – foco en gobierno y universidades  
+Occidente: $88,000,000 MXN – expansión en fintechs y aseguradoras  
+Bajío: $72,000,000 MXN – demanda logística y transporte  
+Sureste: $65,000,000 MXN – mercado emergente con potencial, aún con limitaciones de infraestructura
+
+5. PRINCIPALES CLIENTES NUEVOS 2024
+
+Cliente: Grupo Finabank
+Sector: Financiero
+Producto contratado: TechSuite CRM Cloud
+
+Cliente: MaxMarket
+Sector: Retail
+Producto contratado: VisionBox AI
+
+Cliente: TransMex
+Sector: Logística
+Producto contratado: SmartFleet 360
+
+Cliente: UNETEC
+Sector: Educación
+Producto contratado: SecureNet Appliance
+
+Cliente: AgroVerde
+Sector: Agroindustria
+Producto contratado: DataBridge ETL Pro
+
+6. KPIs DE RENDIMIENTO COMERCIAL
+
+Tasa de conversión de leads: 11.7%  
+Ticket promedio anual por cliente: $3.9M MXN  
+Índice de renovación de contratos: 84%  
+Ciclo de venta promedio: 61 días  
+Penetración de mercado en sectores objetivo: 22.6%
+
+7. RETOS ENFRENTADOS
+
+- Retrasos en entrega de hardware por falta de componentes importados (Q1–Q2)
+- Resistencia a migración cloud en clientes del sector público
+- Aumento de competidores locales con precios agresivos
+
+8. PROYECCIONES 2025
+
+- Crecimiento estimado de +15% para el Q1 y Q2 de 2025  
+- Lanzamiento de TechSuite CRM Cloud 2.0 con IA integrada  
+- Expansión hacia Centroamérica (Guatemala y Costa Rica)  
+- Integración de herramientas de visualización de datos en SmartFleet 360

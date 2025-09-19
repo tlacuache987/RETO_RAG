@@ -1,0 +1,40 @@
+
+    Manual de Políticas de la Empresa TechCorp
+    
+    1. POLÍTICAS DE TRABAJO REMOTO
+    
+    1.1 Elegibilidad
+    Los empleados pueden trabajar de forma remota si:
+    - Han completado al menos 6 meses en la empresa
+    - Su supervisor directo aprueba la solicitud
+    - Su rol permite trabajo remoto efectivo
+    
+    1.2 Horarios de Trabajo
+    - Horario flexible entre 7:00 AM y 7:00 PM
+    - Mínimo 6 horas de solapamiento con el equipo
+    - Disponibilidad para reuniones importantes
+    
+    2. POLÍTICAS DE VACACIONES
+    
+    2.1 Días de Vacaciones
+    - Empleados nuevos: 15 días al año
+    - Empleados con 2+ años: 20 días al año
+    - Empleados con 5+ años: 25 días al año
+    
+    2.2 Solicitud de Vacaciones
+    - Solicitar con al menos 2 semanas de anticipación
+    - Aprobación requerida del supervisor
+    - No más de 10 días consecutivos sin aprobación especial
+    
+    3. CÓDIGO DE CONDUCTA
+    
+    3.1 Principios Básicos
+    - Respeto mutuo entre colegas
+    - Confidencialidad de información empresarial
+    - Profesionalismo en todas las interacciones
+    
+    3.2 Uso de Tecnología
+    - Equipos de la empresa solo para uso profesional
+    - Prohibido instalar software no autorizado
+    - Reportar inmediatamente cualquier problema de seguridad
+    

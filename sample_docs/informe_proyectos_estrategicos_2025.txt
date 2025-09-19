@@ -1,0 +1,132 @@
+INFORME DE SEGUIMIENTO DE PROYECTOS ESTRATÉGICOS 2025 – TECHCORP  
+Oficina de Planeación y Ejecución Estratégica  
+Fecha de emisión: 16 de septiembre de 2025
+
+1. INTRODUCCIÓN
+
+Este informe presenta el estado de avance, desafíos, métricas clave y próximos pasos de los proyectos estratégicos definidos por TechCorp para el año 2025. El objetivo es ofrecer visibilidad ejecutiva sobre iniciativas prioritarias que tienen impacto directo en el crecimiento, la eficiencia operativa y la expansión geográfica de la organización.
+
+Durante el primer y segundo trimestre del año, se han ejecutado cuatro proyectos de alto impacto en las áreas de tecnología, operaciones y expansión internacional. La priorización de recursos, el seguimiento basado en KPIs y la colaboración interdepartamental han sido factores clave para su avance.
+
+2. PROYECTO 1: MIGRACIÓN CLOUD DE INFRAESTRUCTURA CORE
+
+Descripción:  
+Migración progresiva de servicios críticos de infraestructura on-premise hacia una arquitectura cloud híbrida (AWS + Azure).
+
+Objetivo:  
+Reducir en un 35% los costos operativos de infraestructura y mejorar la escalabilidad de los entornos de desarrollo, QA y producción.
+
+Estado Actual:  
+- Fase 1 completada (Q1): migración de servicios internos (CI/CD, backup, gestión de identidades).  
+- Fase 2 en ejecución (Q2–Q3): migración de bases de datos relacionales, capas de integración y microservicios.  
+- Fase 3 planificada (Q4): shutdown de clústeres legacy, monitoreo unificado, auditoría.
+
+KPIs:  
+- Reducción de incidentes críticos: 61%  
+- Ahorro mensual en infraestructura: $1.3M MXN  
+- Tiempo medio de recuperación (MTTR): de 3.8h a 1.5h  
+- Porcentaje de migración completado: 68%
+
+Riesgos:  
+- Latencia en servicios dependientes de on-prem (VPNs legacy)  
+- Falta de capacitación operativa en nuevas herramientas de observabilidad
+
+Próximos pasos:  
+- Entrenamiento técnico en Terraform, Prometheus y Datadog  
+- Consolidación de configuración multi-cloud bajo políticas de seguridad unificadas
+
+3. PROYECTO 2: IMPLEMENTACIÓN DE IA EN SOPORTE AL CLIENTE
+
+Descripción:  
+Despliegue de asistentes conversacionales basados en LLMs para resolución automatizada de tickets y soporte interno.
+
+Objetivo:  
+Reducir en un 40% el volumen de tickets de primer nivel y mejorar el tiempo de respuesta promedio.
+
+Estado Actual:  
+- Q1: Entrenamiento de modelos en base histórica de tickets (390K entradas)  
+- Q2: Integración con plataforma de HelpDesk y canal interno vía Slack/Teams  
+- Prueba piloto en curso con 5 áreas internas (TI, Finanzas, Legal, Comercial, RH)
+
+KPIs:  
+- Resolución automática de consultas comunes: 56%  
+- Tiempo de respuesta promedio: de 26 min a 8 min  
+- Satisfacción de usuarios (encuesta interna): 87%  
+- Tasa de escalamiento a humanos: 19%
+
+Riesgos:  
+- Sesgos en respuestas por falta de entrenamiento contextual  
+- Necesidad de control de versiones en la base de conocimiento (versión semántica)
+
+Próximos pasos:  
+- Ampliación del corpus de entrenamiento con manuales y políticas internas  
+- Despliegue controlado con clientes externos a partir de Q4
+
+4. PROYECTO 3: EXPANSIÓN COMERCIAL A CENTROAMÉRICA
+
+Descripción:  
+Desarrollo de operaciones comerciales y soporte técnico local en Guatemala, Costa Rica y Panamá.
+
+Objetivo:  
+Abrir 3 oficinas regionales, establecer alianzas con 8 distribuidores locales y alcanzar ingresos por $90M MXN en 2025.
+
+Estado Actual:  
+- Oficinas abiertas: 2 (Guatemala, Costa Rica)  
+- Distribuidores firmados: 6  
+- Ingresos acumulados hasta Q2: $36.2M MXN  
+- Se completaron 5 integraciones de TechSuite CRM Cloud con bancos regionales
+
+KPIs:  
+- Tiempo de activación de canal nuevo: 42 días promedio  
+- Tasa de conversión de leads en nuevos países: 10.3%  
+- Costo promedio de adquisición regional: $280K MXN  
+- Tiempo promedio de onboarding técnico: 18 días
+
+Riesgos:  
+- Burocracia en licitaciones gubernamentales  
+- Falta de personal técnico bilingüe en algunos países
+
+Próximos pasos:  
+- Cierre de oficina en Panamá (Q3)  
+- Inversión en equipo de formación remota y soporte en español-inglés  
+- Evaluación de entrada a Colombia en Q1 2026
+
+5. PROYECTO 4: OPTIMIZACIÓN DE LA CADENA DE SUMINISTRO
+
+Descripción:  
+Rediseño del proceso de abastecimiento, trazabilidad y entrega de dispositivos físicos (SmartFleet, SecureNet) mediante integración con proveedores y automatización vía ERP.
+
+Objetivo:  
+Reducir el inventario ocioso en un 45% y disminuir tiempos de entrega en al menos 4 días promedio.
+
+Estado Actual:  
+- ERP SAP S/4HANA integrado con sistema de pedidos y proveedores  
+- API de trazabilidad implementada para 3 líneas de producto  
+- Se automatizó la reposición de stock en base a algoritmos de demanda estacional
+
+KPIs:  
+- Tiempo promedio de entrega antes vs después: de 12.4 días a 7.8 días  
+- Reducción de productos fuera de stock: 67%  
+- Inventario ocioso: bajó de $42M a $22.5M MXN  
+- Precisión del algoritmo de predicción: 81%
+
+Riesgos:  
+- Variaciones de demanda no previstas por eventos geopolíticos o climáticos  
+- Dependencia de proveedores únicos para ciertos componentes
+
+Próximos pasos:  
+- Integración con sistema de alertas de riesgo logístico (Q4)  
+- Mapeo de alternativas de proveedores por SKU prioritarios
+
+6. PROYECTOS TRANSVERSALES EN ETAPA DE ANÁLISIS (Q3 EN ADELANTE)
+
+- Rediseño de TechCorp Academy (formación interna + certificaciones externas)  
+- Rebranding y nueva arquitectura de identidad visual corporativa  
+- Piloto de arquitectura basada en eventos con Kafka y microservicios desacoplados  
+- Evaluación de adquisición de startup de analítica predictiva
+
+7. CONCLUSIÓN
+
+TechCorp ha logrado avances sustanciales en los proyectos definidos como prioritarios para el año 2025, alineando tecnología, procesos y talento humano en función de objetivos estratégicos concretos. La migración cloud, la expansión comercial internacional, el uso de IA y la eficiencia logística están dando forma a una organización más ágil, escalable y orientada a datos.
+
+Los resultados del segundo semestre dependerán de la consolidación de estos esfuerzos, del manejo proactivo de riesgos y de la capacidad de adaptar los proyectos a entornos cambiantes. La planificación estratégica para 2026 deberá integrar las lecciones aprendidas, los KPIs observados y las oportunidades emergentes detectadas durante este ejercicio.

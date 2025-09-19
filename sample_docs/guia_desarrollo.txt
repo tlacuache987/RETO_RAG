@@ -1,0 +1,63 @@
+
+    Guía de Desarrollo de Software - TechCorp
+    
+    1. ESTÁNDARES DE CÓDIGO
+    
+    1.1 Lenguajes de Programación
+    - Python: Seguir PEP 8
+    - JavaScript: Usar ESLint con configuración estándar
+    - Java: Seguir Google Java Style Guide
+    
+    1.2 Documentación
+    - Todos los métodos públicos deben tener docstrings
+    - README.md obligatorio en cada repositorio
+    - Comentarios en código complejo
+    
+    2. CONTROL DE VERSIONES
+    
+    2.1 Git Workflow
+    - Usar GitFlow para manejo de ramas
+    - Commits descriptivos y atómicos
+    - Pull requests obligatorios para main
+    
+    2.2 Revisión de Código
+    - Al menos 2 revisores para cambios críticos
+    - Ejecutar tests antes de merge
+    - Revisar seguridad y performance
+    
+    3. TESTING
+    
+    3.1 Cobertura de Tests
+    - Mínimo 80% de cobertura de código
+    - Tests unitarios para toda lógica de negocio
+    - Tests de integración para APIs
+    
+    3.2 Automatización
+    - CI/CD pipeline configurado
+    - Tests automáticos en cada PR
+    - Deploy automático a staging
+    
+    4. SEGURIDAD
+    
+    4.1 Mejores Prácticas
+    - Nunca hardcodear credenciales
+    - Usar variables de entorno para configuración
+    - Validar todas las entradas de usuario
+    
+    4.2 Dependencias
+    - Mantener dependencias actualizadas
+    - Escaneo de vulnerabilidades semanal
+    - Usar herramientas como Snyk o OWASP
+    
+    5. DEPLOYMENT
+    
+    5.1 Ambientes
+    - Development: Para desarrollo local
+    - Staging: Para testing de QA
+    - Production: Ambiente productivo
+    
+    5.2 Proceso de Deploy
+    - Deploy solo desde rama main
+    - Backup antes de cada deploy a producción
+    - Rollback plan siempre disponible
+    

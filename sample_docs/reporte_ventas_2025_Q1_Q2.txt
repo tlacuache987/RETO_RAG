@@ -1,0 +1,113 @@
+REPORTE DE VENTAS 2025 (Q1–Q2) – TECHCORP  
+Departamento Comercial  
+Fecha de publicación: 15 de julio de 2025
+
+1. RESUMEN EJECUTIVO
+
+Durante el primer semestre de 2025, TechCorp continuó con su tendencia de crecimiento sostenido, alcanzando ingresos por $267,900,000 MXN, lo que representa un incremento del 21% con respecto al mismo periodo de 2024. El lanzamiento de TechSuite CRM Cloud 2.0, la expansión a Centroamérica y la consolidación de clientes en sectores estratégicos como transporte, salud y gobierno han sido los principales catalizadores del rendimiento positivo.
+
+2. DETALLE DE VENTAS POR TRIMESTRE
+
+Q1 2025 (Enero - Marzo)  
+Ingresos totales: $129,400,000 MXN  
+Producto líder: TechSuite CRM Cloud 2.0 (42% de las ventas)  
+Región con mayor crecimiento: Centroamérica (+38%)  
+Nuevos clientes: 52  
+Observaciones: El lanzamiento de la versión 2.0 del CRM, con módulos de inteligencia artificial para predicción de ventas y análisis de churn, impulsó nuevas contrataciones en empresas medianas y grandes. Se firmaron contratos con entidades de gobierno de Guatemala y Costa Rica. El canal de partners generó el 19% del total de ventas trimestrales.
+
+Q2 2025 (Abril - Junio)  
+Ingresos totales: $138,500,000 MXN  
+Producto líder: SmartFleet 360 (35% de las ventas)  
+Región con mayor crecimiento: Norte de México (+26%)  
+Clientes renovados: 74  
+Observaciones: Se incorporó tecnología LIDAR en la nueva línea de dispositivos de rastreo para flotillas. Esto permitió cerrar contratos con dos operadores logísticos multinacionales y fortalecer el modelo de venta con hardware + plataforma SaaS. Se reactivaron clientes inactivos desde 2023 en los sectores automotriz y retail.
+
+3. DESEMPEÑO POR PRODUCTO
+
+Producto: TechSuite CRM Cloud 2.0  
+Ingreso Semestral: $113,900,000 MXN  
+Participación: 42.5%
+
+Producto: SmartFleet 360  
+Ingreso Semestral: $93,700,000 MXN  
+Participación: 35.0%
+
+Producto: VisionBox AI  
+Ingreso Semestral: $37,400,000 MXN  
+Participación: 14.0%
+
+Producto: SecureNet Appliance  
+Ingreso Semestral: $16,300,000 MXN  
+Participación: 6.1%
+
+Producto: DataBridge ETL Pro  
+Ingreso Semestral: $6,600,000 MXN  
+Participación: 2.4%
+
+Comentario: Aunque el CRM sigue liderando por volumen, SmartFleet 360 ha ganado protagonismo debido a la demanda de telemetría avanzada y eficiencia operativa.
+
+4. ANÁLISIS REGIONAL
+
+Centroamérica (Guatemala, Costa Rica): $36,000,000 MXN – expansión inicial, adopción gubernamental y banca digital  
+Norte de México: $58,000,000 MXN – fuerte inversión en logística y transporte inteligente  
+Centro-Sur: $51,500,000 MXN – consolidación en instituciones educativas y sector salud  
+Occidente: $45,000,000 MXN – implementación de CRM 2.0 en aseguradoras y financieras  
+Bajío: $39,400,000 MXN – telemetría y análisis predictivo en sector agrícola y manufactura  
+Sureste: $38,000,000 MXN – mejoras en conectividad impulsan adopción de SecureNet Appliance
+
+5. PRINCIPALES CLIENTES NUEVOS Q1–Q2 2025
+
+Cliente: Bancomex Centroamérica  
+Sector: Banca  
+Producto contratado: TechSuite CRM Cloud 2.0
+
+Cliente: RedLogistics MX  
+Sector: Transporte  
+Producto contratado: SmartFleet 360 + LIDAR Advanced Kit
+
+Cliente: Hospital Ángeles Sur  
+Sector: Salud  
+Producto contratado: VisionBox AI para control de acceso inteligente
+
+Cliente: AgroInsumos del Bajío  
+Sector: Agroindustria  
+Producto contratado: SmartFleet 360 + DataBridge ETL Pro
+
+Cliente: Universidad Nacional de Ciencias Aplicadas  
+Sector: Educación  
+Producto contratado: SecureNet Appliance
+
+6. KPIs DE RENDIMIENTO COMERCIAL
+
+Tasa de conversión de leads: 13.4%  
+Ticket promedio por nuevo cliente: $4.3M MXN  
+Retención de clientes: 88%  
+Tiempo promedio de cierre comercial: 54 días  
+Ratio de expansión (ventas adicionales a clientes existentes): 27%  
+Participación de canal de distribución: 21%
+
+7. TENDENCIAS OBSERVADAS
+
+- Creciente preferencia por soluciones modulares SaaS escalables (CRM, ETL, AI)  
+- Incremento de requerimientos de integración con plataformas existentes (ERP, BI)  
+- Alta demanda de funciones predictivas (ventas, mantenimiento, fraude)  
+- Expansión geográfica más efectiva mediante partners locales y licitaciones
+
+8. RIESGOS DETECTADOS
+
+- Variabilidad en el tipo de cambio con Centroamérica, afectando márgenes  
+- Dependencia de 3 fabricantes de componentes para dispositivos LIDAR  
+- Saturación en el mercado CRM, con nuevos actores ofreciendo versiones gratuitas limitadas  
+- Demoras en procesos de licitación pública en México y Guatemala
+
+9. PROYECCIONES Q3–Q4 2025
+
+- Lanzamiento de módulo de IA conversacional en TechSuite CRM Cloud 2.0  
+- Expansión a Colombia y Perú en Q4 2025  
+- Incorporación de tableros dinámicos integrados en SmartFleet 360  
+- Rebranding de VisionBox AI con enfoque multisectorial  
+- Meta de ingreso total acumulado para 2025: $580M MXN
+
+10. CONCLUSIONES
+
+El primer semestre de 2025 ha representado una etapa de madurez tecnológica y crecimiento estratégico para TechCorp. El equipo comercial logró adaptar sus tácticas a entornos más competitivos, mejorar la eficiencia del pipeline de ventas y posicionar a la empresa como una alternativa robusta frente a proveedores multinacionales. Los esfuerzos de expansión internacional han comenzado a rendir frutos, y las innovaciones previstas para la segunda mitad del año prometen mantener el ritmo ascendente de la organización.
